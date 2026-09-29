@@ -126,9 +126,9 @@ git push origin main
 | 1장 | 코딩 인터뷰 & 코딩 테스트 | — | — | [`ch01`](notes/ch01/README.md) | ⬜ |
 | 2장 | 자바, 세상에서 가장 유명한 언어 | — | [`src/ch02`](src/ch02) | [`ch02`](notes/ch02/README.md) | ⬜ |
 | 3장 | 코틀린, 구글이 인정한 공식 언어 | — | [`src/ch03`](src/ch03) | [`ch03`](notes/ch03/README.md) | ⬜ |
-| 4장 | 자료형 | — | [`src/ch04`](src/ch04) | [`ch04`](notes/ch04/README.md) | ⬜ |
+| 4장 | 자료형 | — | [`src/ch04`](src/ch04) | [`ch04`](notes/ch04/README.md) | ✅ |
 | 5장 | 빅오 | — | [`src/ch05`](src/ch05) | [`ch05`](notes/ch05/README.md) | ⬜ |
-| 6장 | 문자열 조작 | 6 | [`src/ch06`](src/ch06) | [`ch06`](notes/ch06/README.md) | ⬜ |
+| 6장 | 문자열 조작 | 6 | [`src/ch06`](src/ch06) | [`ch06`](notes/ch06/README.md) | 🔄 |
 | 7장 | 배열 | 6 | [`src/ch07`](src/ch07) | [`ch07`](notes/ch07/README.md) | ⬜ |
 | 8장 | 연결 리스트 | 7 | [`src/ch08`](src/ch08) | [`ch08`](notes/ch08/README.md) | ⬜ |
 | 9장 | 스택, 큐 | 6 | [`src/ch09`](src/ch09) | [`ch09`](notes/ch09/README.md) | ⬜ |

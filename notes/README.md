@@ -24,9 +24,9 @@ notes/
 | 1장 | 코딩 인터뷰 & 코딩 테스트 | — | [ch01](ch01/README.md) | ⬜ |
 | 2장 | 자바, 세상에서 가장 유명한 언어 | — | [ch02](ch02/README.md) | ⬜ |
 | 3장 | 코틀린, 구글이 인정한 공식 언어 | — | [ch03](ch03/README.md) | ⬜ |
-| 4장 | 자료형 | — | [ch04](ch04/README.md) | ⬜ |
+| 4장 | 자료형 | — | [ch04](ch04/README.md) | ✅ |
 | 5장 | 빅오 | — | [ch05](ch05/README.md) | ⬜ |
-| 6장 | 문자열 조작 | 6 | [ch06](ch06/README.md) | ⬜ |
+| 6장 | 문자열 조작 | 6 | [ch06](ch06/README.md) | 🔄 |
 | 7장 | 배열 | 6 | [ch07](ch07/README.md) | ⬜ |
 | 8장 | 연결 리스트 | 7 | [ch08](ch08/README.md) | ⬜ |
 | 9장 | 스택, 큐 | 6 | [ch09](ch09/README.md) | ⬜ |
