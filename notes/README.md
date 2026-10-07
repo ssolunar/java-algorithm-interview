@@ -27,7 +27,7 @@ notes/
 | 4장 | 자료형 | — | [ch04](ch04/README.md) | ✅ |
 | 5장 | 빅오 | — | [ch05](ch05/README.md) | ⬜ |
 | 6장 | 문자열 조작 | 6 | [ch06](ch06/README.md) | 🔄 |
-| 7장 | 배열 | 6 | [ch07](ch07/README.md) | ⬜ |
+| 7장 | 배열 | 6 | [ch07](ch07/README.md) | 🔄 |
 | 8장 | 연결 리스트 | 7 | [ch08](ch08/README.md) | ⬜ |
 | 9장 | 스택, 큐 | 6 | [ch09](ch09/README.md) | ⬜ |
 | 10장 | 데크, 우선순위 큐 | 4 | [ch10](ch10/README.md) | ⬜ |
