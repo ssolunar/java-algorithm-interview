@@ -1,23 +1,23 @@
-# Graph Report - java-algorithm-interview  (2026-11-02)
+# Graph Report - java-algorithm-interview  (2026-11-03)
 
 ## Corpus Check
-- 369 files · ~61,333 words
+- 370 files · ~61,544 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 21 file(s) not represented in the graph (top: (none) 20, .iml 1)
 
 ## Summary
-- 1777 nodes · 2334 edges · 266 communities (67 shown, 199 thin omitted)
+- 1781 nodes · 2338 edges · 269 communities (69 shown, 200 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 86 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a2e0ce84`
+- Built from commit: `c1cd57d4`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - deque
-- arraylist
+- list
 - ListNode
 - 13장. 최단 경로 문제
 - 3. 문제 풀이
@@ -55,7 +55,7 @@
 - 16장. 트라이
 - .P6_1
 - .P10_1
-- P13Test
+- P13Test.java
 - 2장. 자바, 세상에서 가장 유명한 언어
 - 3장. 코틀린, 구글이 인정한 공식 언어
 - 5장. 빅오
@@ -65,7 +65,7 @@
 - P26_2
 - .P44_1
 - assertequals
-- comparator
+- P28_1
 - hashmap
 - map
 - 1장. 코딩 인터뷰 & 코딩 테스트
@@ -92,7 +92,7 @@
 - Trie
 - P79_1
 - P16_1
-- .P21_1
+- SteamAPIExample.java
 - P30_1
 - .P31_2
 - Trie
@@ -110,9 +110,9 @@
 - .dfs
 - P98_2.kt
 - P97_5
-- CallByValueExample.java
+- .P43_3
 - P28_3
-- .dfs
+- 20장. 슬라이딩 윈도우
 - P67_2
 - .Quicksort
 - P100_1
@@ -125,11 +125,11 @@
 - KotlinFunctionalExample.kt
 - P2_2
 - P12_3
-- .P7_3
+- .P7_5
 - P24_1
 - P9_3
-- .P13_4
-- .P15_2
+- .P45_3
+- .P7_3
 - 4장. 자료형
 - JavaCarExample
 - KotlinNestedClassExample
@@ -137,18 +137,18 @@
 - P33_3
 - P8_2.java
 - P36_1.java
-- .P7_2
+- .P13_3
 - P39_2
 - P40_2
 - .dfs
 - P43_1.java
 - P43_2.java
-- .P43_1
-- .P13_3
-- P37_1.java
+- org.junit.jupiter.api.Test
+- .P7_4
+- .P13_4
 - .dfs
-- .P50_6
-- P4_r1.java
+- .P15_3
+- .dfs
 - P6.java
 - P20_1.java
 - P54_2
@@ -192,10 +192,10 @@
 - P1
 - P2
 - P3_v1
-- P21_2.java
+- .P50_6
 - P39_1.java
-- P5.java
-- P6_r1.java
+- P28_2
+- P63_1.java
 - P7_v2
 - P9_r1.java
 - P40_1.java
@@ -215,23 +215,23 @@
 - .swapPairs
 - .swapPairs
 - P97_2.java
-- MapExample.java
+- P17_2.java
 - P97_3.java
 - P34_2
 - P36_2
 - P33_2.java
 - P41_3
-- .rangeSumBST
+- P18_1.java
 - P42_2
-- .minDiffInBST
+- P19_2.kt
 - P10.java
 - .prettyPrint
 - P9.java
-- P75_1.java
-- P90_1.java
+- P11.java
+- P54_1.java
 - .rangeSumBST
 - P5_1.java
-- .mergeTwoLists
+- .rangeSumBST
 - P69_1
 - P70_3
 - P71_1
@@ -247,20 +247,20 @@
 - P80_2
 - P80_3
 - P82_3
-- P83_1.java
+- .minDiffInBST
 - P83_2
 - P84_1
 - P87_1
-- P90_2.java
-- P17_2.java
-- P18_1.java
+- arraylist
+- P33_1.java
+- P41_2.java
 - .diffWaysToCompute
 - .fib
 - .fib
 - P91_3
 - P91_4
 - .fib
-- P19_2.kt
+- P42_1.java
 - P92_3
 - .climbStairs
 - .climbStairs
@@ -269,13 +269,16 @@
 - P94_2
 - P95_1
 - P101_2
-- P34_1.java
+- P75_1.java
 - P98_1.java
 - KotlinCarExample.kt
-- P92_2.java
+- P83_1.java
 - .rangeSumBST
 - P96_1.java
 - P88_1.java
+- P90_2.java
+- P66_2.java
+- P92_2.java
 
 ## God Nodes (most connected - your core abstractions)
 1. `TreeNode` - 85 edges
@@ -300,23 +303,23 @@
 ## Import Cycles
 - None detected.
 
-## Communities (266 total, 199 thin omitted)
+## Communities (269 total, 200 thin omitted)
 
 ### Community 0 - "deque"
-Cohesion: 0.22
-Nodes (3): P57_3, P58_2, P81_3
+Cohesion: 0.18
+Nodes (4): P21_2, P57_3, P58_2, P81_3
 
-### Community 1 - "arraylist"
-Cohesion: 0.09
-Nodes (9): GenericExample, CollectionsFrameworkPerf1, CollectionsFrameworkPerf2, P3_1, P5_2, P9_2, P63_1, P81_1 (+1 more)
+### Community 1 - "list"
+Cohesion: 0.15
+Nodes (4): GenericExample, CallByValueExample, P81_1, P90_1
 
 ### Community 2 - "ListNode"
 Cohesion: 0.11
-Nodes (7): P16_2, P18_2, P19_1, P66_1, P66_2, P66_3, ListNode
+Nodes (7): P14_2, P16_2, P18_2, P19_1, P66_1, P66_3, ListNode
 
 ### Community 3 - "13장. 최단 경로 문제"
-Cohesion: 0.07
-Nodes (26): 13장. 최단 경로 문제, 1. 핵심 개념, 2. 자바 구현 포인트, 3. 문제 풀이, 4. 헷갈렸던 것 / 다시 볼 것, 5. 복습 기록, 6. 한 줄 요약, P44. 네트워크 딜레이 타임 (+18 more)
+Cohesion: 0.14
+Nodes (13): 13장. 최단 경로 문제, 1. 핵심 개념, 2. 자바 구현 포인트, 3. 문제 풀이, 4. 헷갈렸던 것 / 다시 볼 것, 5. 복습 기록, 6. 한 줄 요약, P44. 네트워크 딜레이 타임 (+5 more)
 
 ### Community 4 - "3. 문제 풀이"
 Cohesion: 0.08
@@ -351,12 +354,12 @@ Cohesion: 0.12
 Nodes (5): P3, P9_1, P70_4, P73_3, P87_2
 
 ### Community 13 - "collectors"
-Cohesion: 0.14
-Nodes (4): P37_2, P38_1, P38_2, P78_1
+Cohesion: 0.12
+Nodes (5): P37_1, P37_2, P38_1, P38_2, P78_1
 
 ### Community 14 - "3. 문제 풀이"
 Cohesion: 0.11
-Nodes (18): 1. 핵심 개념, 2026-11-02 학습 기록, 2. 자바 구현 포인트, 3. 문제 풀이, 4. 헷갈렸던 것 / 다시 볼 것, 5. 복습 기록, 6. 한 줄 요약, 7장. 배열 (+10 more)
+Nodes (19): 1. 핵심 개념, 2026-11-02 학습 기록, 2026-11-03 학습 기록, 2. 자바 구현 포인트, 3. 문제 풀이, 4. 헷갈렸던 것 / 다시 볼 것, 5. 복습 기록, 6. 한 줄 요약 (+11 more)
 
 ### Community 15 - "3. 문제 풀이"
 Cohesion: 0.12
@@ -391,8 +394,8 @@ Cohesion: 0.15
 Nodes (4): P31_2, P72_1, P72_2, P72_3
 
 ### Community 23 - "util"
-Cohesion: 0.15
-Nodes (4): P3_r1, P4, P41_2, P42_1
+Cohesion: 0.12
+Nodes (5): P3_r1, P4, P4_r1, P5, P6_r1
 
 ### Community 24 - "19장. 비트 조작"
 Cohesion: 0.12
@@ -403,8 +406,8 @@ Cohesion: 0.12
 Nodes (16): 1. 핵심 개념, 21장. 그리디 알고리즘, 2. 자바 구현 포인트, 3. 문제 풀이, 4. 헷갈렸던 것 / 다시 볼 것, 5. 복습 기록, 6. 한 줄 요약, DP와 그리디를 구분하는 기준 (+8 more)
 
 ### Community 26 - "priorityqueue"
-Cohesion: 0.11
-Nodes (6): P28_2, Point, P29_1, P60_2, P85_1, P86_1
+Cohesion: 0.12
+Nodes (4): P29_1, P65_1, P85_1, P86_1
 
 ### Community 27 - ".P1_1"
 Cohesion: 0.13
@@ -423,8 +426,8 @@ Cohesion: 0.12
 Nodes (4): P89_2, P89_3, P89_4, P89Test
 
 ### Community 32 - "collections"
-Cohesion: 0.14
-Nodes (5): Member, SteamAPIExample, P10_1, P61_1, P92_1
+Cohesion: 0.17
+Nodes (4): P10_1, P60_2, P61_1, P92_1
 
 ### Community 33 - "15장. 힙"
 Cohesion: 0.15
@@ -447,10 +450,10 @@ Cohesion: 0.20
 Nodes (3): P6_1, P6_2, P6Test
 
 ### Community 39 - ".P10_1"
-Cohesion: 0.17
+Cohesion: 0.15
 Nodes (3): P10_2, P10_3, P10Test
 
-### Community 40 - "P13Test"
+### Community 40 - "P13Test.java"
 Cohesion: 0.25
 Nodes (3): P13_1, P13_2, P13Test
 
@@ -463,7 +466,7 @@ Cohesion: 0.18
 Nodes (10): 1. 핵심 개념, 2. 자바 구현 포인트, 3. 헷갈렸던 것 / 다시 볼 것, 3장. 코틀린, 구글이 인정한 공식 언어, 4. 복습 기록, 5. 한 줄 요약, 복잡도 정리, 자바 코드로 컴파일된 결과를 확인하는 방법 (+2 more)
 
 ### Community 43 - "5장. 빅오"
-Cohesion: 0.17
+Cohesion: 0.18
 Nodes (11): 1. 핵심 개념, 2. 자바 구현 포인트, 3. 헷갈렸던 것 / 다시 볼 것, 4. 복습 기록, 5. 한 줄 요약, 5장. 빅오, 복잡도 정리, 분할 상환 분석(amortized analysis) (+3 more)
 
 ### Community 44 - "자바 알고리즘 인터뷰 with 코틀린 — 학습 기록"
@@ -471,16 +474,12 @@ Cohesion: 0.18
 Nodes (11): 🧩 기타 예제 코드, 📝 문제 풀이 목록 (102문제), 🔄 원본 저장소 변경사항 반영, 📚 원본 저장소 안내, 자바 알고리즘 인터뷰 with 코틀린 — 학습 기록, 📁 저장소 구조, 🗺️ 전체 개념 지도, 📊 진도 (+3 more)
 
 ### Community 46 - ".P11_1"
-Cohesion: 0.20
+Cohesion: 0.15
 Nodes (3): P11_1, P11_2, P11Test
 
 ### Community 48 - ".P44_1"
 Cohesion: 0.18
 Nodes (3): P44_1, P44_2, P44Test
-
-### Community 50 - "comparator"
-Cohesion: 0.22
-Nodes (3): P28_1, Point, P65_1
 
 ### Community 51 - "hashmap"
 Cohesion: 0.20
@@ -488,7 +487,7 @@ Nodes (3): P32_1, P82_2, P89_1
 
 ### Community 52 - "map"
 Cohesion: 0.20
-Nodes (3): P7, P33_1, P54_1
+Nodes (3): P7, MapExample, P34_1
 
 ### Community 53 - "1장. 코딩 인터뷰 & 코딩 테스트"
 Cohesion: 0.20
@@ -499,12 +498,12 @@ Cohesion: 0.20
 Nodes (9): 1. 핵심 개념, 2. 자바 구현 포인트, 3. 문제 풀이, 4. 헷갈렸던 것 / 다시 볼 것, 5. 복습 기록, 6. 한 줄 요약, NN장. 주제, PN. 문제 제목 (+1 more)
 
 ### Community 55 - "P7Test"
-Cohesion: 0.14
-Nodes (4): P7_1, P7_4, P7_5, P7Test
+Cohesion: 0.20
+Nodes (3): P7_1, P7_2, P7Test
 
 ### Community 56 - ".reverse"
 Cohesion: 0.22
-Nodes (3): P15_1, P15_3, P15Test
+Nodes (3): P15_1, P15_2, P15Test
 
 ### Community 59 - "Trie"
 Cohesion: 0.33
@@ -523,8 +522,8 @@ Cohesion: 0.36
 Nodes (3): MyNode, MyStack, StackExample
 
 ### Community 64 - ".P45_1"
-Cohesion: 0.13
-Nodes (4): P45_1, P45_2, P45_3, P45Test
+Cohesion: 0.20
+Nodes (3): P45_1, P45_2, P45Test
 
 ### Community 65 - "Trie"
 Cohesion: 0.31
@@ -535,7 +534,7 @@ Cohesion: 0.20
 Nodes (3): P22_1, P22_2, P22Test
 
 ### Community 70 - ".P27_1"
-Cohesion: 0.25
+Cohesion: 0.22
 Nodes (3): P27_1, P27_2, P27Test
 
 ### Community 74 - "Trie"
@@ -554,6 +553,10 @@ Nodes (3): InnerClass, JavaNestedClassExample, StaticNestedClass
 Cohesion: 0.13
 Nodes (3): P47_2, P47_3, P47Test
 
+### Community 97 - "20장. 슬라이딩 윈도우"
+Cohesion: 0.15
+Nodes (13): 1. 핵심 개념, 20장. 슬라이딩 윈도우, 2. 자바 구현 포인트, 3. 문제 풀이, 4. 헷갈렸던 것 / 다시 볼 것, 5. 복습 기록, 6. 한 줄 요약, P81. 최대 슬라이딩 윈도우 (+5 more)
+
 ### Community 115 - "4장. 자료형"
 Cohesion: 0.40
 Nodes (4): 3. 헷갈렸던 것 / 다시 볼 것, 4. 복습 기록, 4장. 자료형, 5. 한 줄 요약
@@ -561,6 +564,10 @@ Nodes (4): 3. 헷갈렸던 것 / 다시 볼 것, 4. 복습 기록, 4장. 자료�
 ### Community 117 - "KotlinNestedClassExample"
 Cohesion: 0.50
 Nodes (3): InnerClass, KotlinNestedClassExample, NestedClass
+
+### Community 128 - "org.junit.jupiter.api.Test"
+Cohesion: 0.18
+Nodes (4): P21_3, P20Test, P21Test, P43Test
 
 ### Community 142 - "학습 노트"
 Cohesion: 0.67
@@ -570,23 +577,27 @@ Nodes (3): 구성, 챕터별 노트, 학습 노트
 Cohesion: 0.14
 Nodes (4): P50_2, P51_1, P51_2, P51Test
 
+### Community 236 - "arraylist"
+Cohesion: 0.11
+Nodes (6): CollectionsFrameworkPerf1, CollectionsFrameworkPerf2, P3_1, P5_2, P9_2, P81_2
+
 ## Knowledge Gaps
-- **199 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **200 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `TreeNode` connect `TreeNode` to `deque`, `.dfs`, `.P50_6`, `.rangeSumBST`, `P53_2.kt`, `queue`, `.construct`, `P58_3.kt`, `.dfs`, `.dfs`, `.rangeSumBST`, `.buildTree`, `.minDiffInBST`, `.prettyPrint`, `P50Test`, `.rangeSumBST`, `.maxDepth`, `.bstToGst`?**
-  _High betweenness centrality (0.086) - this node is a cross-community bridge._
-- **Should `arraylist` be split into smaller, more focused modules?**
-  _Cohesion score 0.08505747126436781 - nodes in this community are weakly interconnected._
-- **Why does `ListNode` connect `ListNode` to `.P13_3`, `queue`, `.mergeTwoLists`, `.quicksort`, `.mergeTwoLists`, `priorityqueue`, `P13Test`, `assertequals`, `.reverse`, `.mergeTwoLists`, `P16_3.kt`, `P17_1.java`, `.swapPairs`, `.swapPairs`, `.P27_1`, `P16_1`, `.mergeTwoLists`, `P17_2.java`, `P18_1.java`, `.P13_4`, `.P15_2`, `P19_2.kt`, `P8_2.java`?**
-  _High betweenness centrality (0.042) - this node is a cross-community bridge._
+- **Why does `TreeNode` connect `TreeNode` to `deque`, `.dfs`, `.rangeSumBST`, `P53_2.kt`, `queue`, `.construct`, `.minDiffInBST`, `P58_3.kt`, `.dfs`, `.dfs`, `.buildTree`, `.P50_6`, `.prettyPrint`, `P50Test`, `.rangeSumBST`, `.maxDepth`, `.bstToGst`, `.rangeSumBST`?**
+  _High betweenness centrality (0.084) - this node is a cross-community bridge._
 - **Should `ListNode` be split into smaller, more focused modules?**
   _Cohesion score 0.11 - nodes in this community are weakly interconnected._
+- **Why does `ListNode` connect `ListNode` to `.P13_4`, `.P15_3`, `queue`, `P66_2.java`, `.mergeTwoLists`, `.quicksort`, `.mergeTwoLists`, `P13Test.java`, `assertequals`, `.reverse`, `.mergeTwoLists`, `P16_3.kt`, `P17_1.java`, `.swapPairs`, `.swapPairs`, `.P27_1`, `P17_2.java`, `P16_1`, `P18_1.java`, `P19_2.kt`, `P8_2.java`, `.P13_3`?**
+  _High betweenness centrality (0.037) - this node is a cross-community bridge._
 - **Should `13장. 최단 경로 문제` be split into smaller, more focused modules?**
-  _Cohesion score 0.07384615384615385 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `3. 문제 풀이` be split into smaller, more focused modules?**
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._
 - **Should `TreeNode` be split into smaller, more focused modules?**
   _Cohesion score 0.11384615384615385 - nodes in this community are weakly interconnected._
+- **Should `1. 핵심 개념` be split into smaller, more focused modules?**
+  _Cohesion score 0.125 - nodes in this community are weakly interconnected._

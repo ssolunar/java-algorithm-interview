@@ -2100,9 +2100,9 @@
     "semantic_hash": ""
   },
   "notes/ch07/README.md": {
-    "mtime": 1793601448.6416807,
-    "seen": 1793601455.6750963,
-    "ast_hash": "3d83093e45a43ee2328c85a8fe402744",
+    "mtime": 1793686612.1405587,
+    "seen": 1793686634.4666421,
+    "ast_hash": "31b0eaaa009e8bf97e03675c9364189f",
     "semantic_hash": ""
   },
   "notes/ch08/README.md": {
@@ -2223,6 +2223,12 @@
     "mtime": 1793601448.133718,
     "seen": 1793601455.6746256,
     "ast_hash": "2c869ef7cc9b12aa9a27d23c4b9cb268",
+    "semantic_hash": ""
+  },
+  "notes/ch07/solutions/P11.java": {
+    "mtime": 1793686611.4853816,
+    "seen": 1793686634.465209,
+    "ast_hash": "db3b6f274ae85f30f1a9e5362b32fa13",
     "semantic_hash": ""
   }
 }
