@@ -130,7 +130,7 @@ git push origin main
 | 5장 | 빅오 | — | [`src/ch05`](src/ch05) | [`ch05`](notes/ch05/README.md) | ⬜ |
 | 6장 | 문자열 조작 | 6 | [`src/ch06`](src/ch06) | [`ch06`](notes/ch06/README.md) | 🔄 |
 | 7장 | 배열 | 6 | [`src/ch07`](src/ch07) | [`ch07`](notes/ch07/README.md) | 🔄 |
-| 8장 | 연결 리스트 | 7 | [`src/ch08`](src/ch08) | [`ch08`](notes/ch08/README.md) | ⬜ |
+| 8장 | 연결 리스트 | 7 | [`src/ch08`](src/ch08) | [`ch08`](notes/ch08/README.md) | 🔄 |
 | 9장 | 스택, 큐 | 6 | [`src/ch09`](src/ch09) | [`ch09`](notes/ch09/README.md) | ⬜ |
 | 10장 | 데크, 우선순위 큐 | 4 | [`src/ch10`](src/ch10) | [`ch10`](notes/ch10/README.md) | ⬜ |
 | 11장 | 해시 테이블 | 5 | [`src/ch11`](src/ch11) | [`ch11`](notes/ch11/README.md) | ⬜ |
